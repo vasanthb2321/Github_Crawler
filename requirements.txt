@@ -1,0 +1,20 @@
+# ──────────────────────────────────────────────
+# GitHub Secret Crawler — Python Requirements
+# Install: pip install -r requirements.txt
+# Python version: 3.11+
+# ──────────────────────────────────────────────
+
+# Web framework
+fastapi==0.115.0
+
+# ASGI server to run FastAPI
+uvicorn==0.30.6
+
+# Request/response data validation (used by FastAPI)
+pydantic==2.8.2
+
+# Multipart form support (optional file uploads)
+python-multipart==0.0.9
+
+# Jinja2 templating (if serving index.html via FastAPI templates)
+jinja2==3.1.4
