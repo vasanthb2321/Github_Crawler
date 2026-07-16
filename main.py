@@ -12,7 +12,7 @@ from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
 import uuid
 import os
-GITHUB_DEFAULT_TOKEN = os.getenv("GITHUB_TOKEN") or "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"
+GITHUB_DEFAULT_TOKEN = os.getenv("GITHUB_TOKEN")
 
 app = FastAPI(title="GitHub Secret Scanner API", version="1.0.0")
 
